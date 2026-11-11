@@ -1,0 +1,23 @@
+[
+  {
+    "name": "cyber_knight",
+    "preset": "character",
+    "prompt": "Stylized armored cyberpunk knight in sleek white and titanium tactical plating with cyan visor glow"
+  },
+  {
+    "name": "neon_warhammer",
+    "preset": "weapon",
+    "prompt": "Heavy industrial warhammer with twin pressurized neon magenta paint canisters, black steel shaft, and glowing runes",
+    "ref_image": "./examples/optional_ref.png"
+  },
+  {
+    "name": "street_hoverboard",
+    "preset": "prop_topbottom",
+    "prompt": "Graffiti street hoverboard with neon cyan thrusters under the deck and yellow skull stencil art on grip surface"
+  },
+  {
+    "name": "citadel_valley_vista",
+    "preset": "concept",
+    "prompt": "Stylized medieval hilltop stone citadel overlooking a turquoise mountain river and red-tiled half-timbered village"
+  }
+]

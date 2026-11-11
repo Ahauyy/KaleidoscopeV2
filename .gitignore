@@ -1,0 +1,52 @@
+# === CRITICAL SECRETS & AUTHENTICATION STATE ===
+# Never commit .env files or persistent browser profiles containing Google cookies/tokens!
+.env
+.env.*
+!.env.example
+*.env
+browser_profile/
+*_profile/
+flow_headless_profile/
+Cookies
+Cookies-journal
+Local Storage/
+Session Storage/
+*.sqlite
+*.sqlite3
+*.ldb
+token.json
+credentials.json
+
+# === GENERATED OUTPUTS & WORKSPACE SCRATCH ===
+outputs/
+references/
+.scratch/
+scratch/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.blend
+*.fbx
+*.glb
+
+# === PYTHON / PACKAGING ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
